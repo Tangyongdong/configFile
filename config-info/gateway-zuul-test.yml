@@ -1,0 +1,12 @@
+spring:
+  profiles: test
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://test-eureka:8761/eureka/
+  instance:
+      prefer-ip-address: true
+    client:
+      register-with-eureka: true
+      fetch-registry: true
