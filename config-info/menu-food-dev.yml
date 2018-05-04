@@ -2,11 +2,13 @@ spring:
   profiles: dev
 
 #datasource
-datasource.ip_port: localhost:3306
-datasource.username: root
-datasource.password: root1234
+datasource:
+  ip_port: localhost:3306
+  username: root
+  password: root1234
 
-aop.auto: true
+aop:
+  auto: true
 
 eureka:
   client:
