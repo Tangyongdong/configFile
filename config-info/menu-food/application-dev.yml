@@ -1,5 +1,6 @@
 spring:
   profiles: dev
+
 #datasource
 datasource.ip_port: localhost:3306
 datasource.username: root
