@@ -8,7 +8,7 @@ datasource.password: root1234
 
 #rabbitmq
 rabbitmq.host: localhost
-rabbitmq.port: 15672
+rabbitmq.port: 5672
 rabbitmq.username: guest
 rabbitmq.password: guest
 
