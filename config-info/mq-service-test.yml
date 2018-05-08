@@ -6,6 +6,12 @@ datasource.ip_port: localhost:3306
 datasource.username: root
 datasource.password: root1234
 
+#rabbitmq
+rabbitmq.host: localhost
+rabbitmq.port: 15672
+rabbitmq.username: guest
+rabbitmq.password: guest
+
 aop.auto: true
 
 eureka:
