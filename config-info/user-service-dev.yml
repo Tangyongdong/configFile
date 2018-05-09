@@ -6,10 +6,6 @@ datasource.ip_port: localhost:3306
 datasource.username: root
 datasource.password: root1234
 
-redis.host: localhost
-redis.port: 6379
-redis.password: root1234
-
 #redis
 redis.host: localhost
 redis.port: 6379
