@@ -1,0 +1,25 @@
+spring:
+  profiles: dev
+
+#elasticsearch
+elasticsearch.cluster-name: tangyongdong
+elasticsearch.cluster-nodes: localhost:9300
+elasticsearch.local: false
+elasticsearch.repositories.enabled: true
+
+#datasource
+datasource.ip_port: localhost:3306
+datasource.username: root
+datasource.password: root1234
+
+aop.auto: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+
